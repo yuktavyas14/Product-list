@@ -1,0 +1,38 @@
+.taskBody{
+    position:absolute;
+    margin-left: 50%;
+    margin-top: 30px;
+    transform: translate(-50%);
+    border: 2px solid black;
+    width: 35%;
+    min-height: 40vh;
+}
+
+#Example-list{
+    display: inline-block;
+    font-size: 200;
+    color:  rgb(109, 135, 227);
+}
+
+#add-span{
+    float: right;
+}
+
+#taskBody{
+    position: absolute  ;
+    top: 45px;
+    left: 10px;
+}
+.main-box {
+    height: 480px;
+    overflow-y: auto;
+}
+.border-orange {
+    border-bottom: 4px solid orange !important;
+}
+.border-green {
+    border-bottom: 4px solid green !important;
+}
+.border-red {
+    border-bottom: 4px solid red !important;
+}
